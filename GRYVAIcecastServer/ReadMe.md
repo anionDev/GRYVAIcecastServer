@@ -2,10 +2,10 @@
 
 ## General
 
-Icecast 2 for Docker
+Icecast-server as Docker-Image
 
 ```sh
-docker run -d -p 8000:8000 aniondev/GRYVAIcecastServer
+docker run -d -p 8000:80 aniondev/GRYVAIcecastServer
 ```
 
 Supported ENV variables:
