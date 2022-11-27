@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/infiniteproject/icecast.svg?branch=master)](https://travis-ci.org/infiniteproject/icecast)
+# GRYVAIcecastServer
+
 # icecast
 Icecast 2 for Docker
 ```
