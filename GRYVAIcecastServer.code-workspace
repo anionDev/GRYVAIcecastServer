@@ -15,46 +15,6 @@
 					"${workspaceFolder}/GRYVAIcecastServer"
 				],
 				"type": "shell",
-			},
-			{
-				"label": "GRYVAIcecastServer: Common tasks",
-				"command": "python",
-				"args": [
-					"${workspaceFolder}/GRYVAIcecastServer/Other/CommonTasks.py"
-				],
-				"type": "shell",
-			},
-			{
-				"label": "GRYVAIcecastServer: Build",
-				"command": "python",
-				"args": [
-					"${workspaceFolder}/GRYVAIcecastServer/Other/Build/Build.py"
-				],
-				"type": "shell",
-			},
-			{
-				"label": "GRYVAIcecastServer: Run testcases",
-				"command": "python",
-				"args": [
-					"${workspaceFolder}/GRYVAIcecastServer/Other/QualityCheck/RunTestcases.py"
-				],
-				"type": "shell",
-			},
-			{
-				"label": "GRYVAIcecastServer: Linting",
-				"command": "python",
-				"args": [
-					"${workspaceFolder}/GRYVAIcecastServer/Other/QualityCheck/Linting.py"
-				],
-				"type": "shell",
-			},
-			{
-				"label": "GRYVAIcecastServer: Generate reference",
-				"command": "python",
-				"args": [
-					"${workspaceFolder}/GRYVAIcecastServer/Other/Reference/GenerateReference.py"
-				],
-				"type": "shell",
 			}
 		]
 	},

@@ -1,3 +1,3 @@
-# ScriptCollection reference
+# GRYVAIcecastServer reference
 
 TODO

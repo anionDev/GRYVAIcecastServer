@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+
+  gryvaicecastserver:
+    image: gryvaicecastserver:latest
+    container_name: 'gryvaicecastserver'
+    volumes:
+      - "./Volumes/Configuration:/Workspace/TODO"
+      - "./Volumes/Logs:/var/log/tor"
