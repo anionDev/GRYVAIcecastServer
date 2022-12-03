@@ -2,17 +2,16 @@
 
 ## General
 
-Icecast-server as Docker-Image
+[GRYVAIcecastServer](https://github.com/anionDev/GRYVAIcecastServer) is a containerized Icecast-server.
 
-```sh
-docker run -d -p 8000:80 aniondev/GRYVAIcecastServer
-```
+Supported docker-environment-variables:
 
-Supported ENV variables:
-
-```sh
-ICECAST_SOURCE_PASSWORD, ICECAST_ADMIN_PASSWORD, ICECAST_RELAY_PASSWORD
-ICECAST_ADMIN_USERNAME, ICECAST_ADMIN_EMAIL
-ICECAST_LOCATION, ICECAST_HOSTNAME
-ICECAST_MAX_CLIENTS, ICECAST_MAX_SOURCES
-```
+- `icecast_source_password`
+- `icecast_admin_password`
+- `icecast_relay_password`
+- `icecast_admin_username`
+- `icecast_admin_email`
+- `icecast_location`
+- `icecast_hostname`
+- `icecast_max_clients`
+- `icecast_max_sources`
