@@ -1,4 +1,7 @@
 FROM alpine:latest
+
+ARG TargetEnvironmentType
+ARG Version="0.1.10"
 LABEL maintainer "marius.goecke@gmail.com"
 
 RUN addgroup -S icecast && adduser -S icecast
