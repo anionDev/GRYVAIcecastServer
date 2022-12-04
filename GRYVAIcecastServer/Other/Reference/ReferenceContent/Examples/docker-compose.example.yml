@@ -3,7 +3,7 @@ version: '3.2'
 services:
 
   gryvaicecastserver:
-    image: aniondev/gryvaicecastserver:latest
+    image: 'aniondev/gryvaicecastserver:0.1.0'
     container_name: 'gryvaicecastserver'
     ports:
       - "80:8000"

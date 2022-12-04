@@ -2,7 +2,7 @@
 
 ## General
 
-[GRYVAIcecastServer](https://github.com/anionDev/GRYVAIcecastServer) is a containerized Icecast-server.
+[GRYVAIcecastServer](https://github.com/anionDev/GRYVAIcecastServer) is a docker-image for simply running an [Icecast](https://icecast.org)-server in a docker-container.
 It was originally written by [infiniteproject](https://github.com/infiniteproject/icecast).
 The details can be found [here](https://github.com/anionDev/GRYVAIcecastServer/tree/main/GRYVAIcecastServer).
 
