@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Entire repository"
+		},
+		{
+			"path": "./GRYVAIcecastServer",
+			"name": "GRYVAIcecastServer"
+		}
+	],
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "GRYVAIcecastServer: Build entire codeunit",
+				"command": "SCBuildCodeunit",
+				"args": [
+					"--codeunitfolder",
+					"${workspaceFolder}/GRYVAIcecastServer"
+				],
+				"type": "shell",
+			},
+			{
+				"label": "GRYVAIcecastServer: Run example",
+				"command": "python3 GRYVAIcecastServer/Other/Examples/MinimalDockerComposeFile/RunExample.py",
+				"args": [],
+				"type": "shell",
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Debug current file",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal"
+			}
+		]
+	},
+	"settings": {
+		"spellright.language": [
+			"en",
+		],
+		"spellright.documentTypes": [
+			"markdown",
+			"plaintext",
+		],
+	}
+}
