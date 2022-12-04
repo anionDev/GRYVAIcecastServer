@@ -20,6 +20,12 @@
 					"${workspaceFolder}/GRYVAIcecastServer"
 				],
 				"type": "shell",
+			},
+			{
+				"label": "GRYVAIcecastServer: Run example",
+				"command": "python3 GRYVAIcecastServer/Other/Examples/MinimalDockerComposeFile/RunExample.py",
+				"args": [],
+				"type": "shell",
 			}
 		]
 	},
