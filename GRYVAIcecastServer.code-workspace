@@ -1,7 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".",
+			"name": "Entire repository"
+		},
+		{
+			"path": "./GRYVAIcecastServer",
+			"name": "GRYVAIcecastServer"
 		}
 	],
 	"tasks": {

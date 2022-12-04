@@ -1,5 +1,9 @@
 # GRYVAIcecastServer
 
+## Development-state
+
+![Development-state](https://img.shields.io/badge/development--state-maintenance%20updates%20only-green)
+
 ## General
 
 [GRYVAIcecastServer](https://github.com/anionDev/GRYVAIcecastServer) is a docker-image for simply running an [Icecast](https://icecast.org)-server in a docker-container.
