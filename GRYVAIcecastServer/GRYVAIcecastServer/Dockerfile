@@ -16,4 +16,3 @@ RUN chmod +x /EntryPointScript.sh
 EXPOSE 8000
 VOLUME ["/var/log/icecast"]
 ENTRYPOINT ["/EntryPointScript.sh"]
-CMD icecast -c /etc/icecast.xml

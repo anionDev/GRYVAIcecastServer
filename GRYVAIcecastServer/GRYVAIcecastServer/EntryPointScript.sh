@@ -28,4 +28,4 @@ if [ -n "$icecast_max_sources" ]; then
     sed -i "s/<sources>[^<]*<\/sources>/<sources>$icecast_max_sources<\/sources>/g" /etc/icecast.xml
 fi
 
-exec "$@"
+icecast -c /etc/icecast.xml

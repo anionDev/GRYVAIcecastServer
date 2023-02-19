@@ -13,19 +13,22 @@
 		"version": "2.0.0",
 		"tasks": [
 			{
-				"label": "GRYVAIcecastServer: Build entire codeunit",
-				"command": "SCBuildCodeunit",
-				"args": [
-					"--codeunitfolder",
-					"${workspaceFolder}/GRYVAIcecastServer"
-				],
+				"label": "Build all codeunits",
+				"command": "SCBuildCodeunits",
+				"args": [],
 				"type": "shell",
+				"options": {
+					"cwd": "${workspaceFolder}"
+				}
 			},
 			{
 				"label": "GRYVAIcecastServer: Run example",
-				"command": "python3 GRYVAIcecastServer/Other/Examples/MinimalDockerComposeFile/RunExample.py",
+				"command": "python3 RunExample.py",
 				"args": [],
 				"type": "shell",
+				"options": {
+					"cwd": "${workspaceFolder}/GRYVAIcecastServer/Other/Examples/MinimalDockerComposeFile"
+				}
 			}
 		]
 	},
