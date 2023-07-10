@@ -1,0 +1,15 @@
+version: '3.2'
+
+services:
+
+  gryvaicecastserver:
+    image: gryvaicecastserver:0.1.1
+    container_name: 'gryvaicecastserver'
+    environment:
+      - icecast_hostname=MyServer
+      - icecast_location=Germany
+      - icecast_admin_email=marius.goecke@gmail.com
+      - icecast_admin_username=admin
+      - icecast_admin_password=SomeSecurePassword
+    ports:
+      - "8000:8000"
