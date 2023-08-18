@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://projects.aniondev.de/PublicProjects/Common/ProjectTemplates/-/raw/main/Conventions/RepositoryStructure/CommonProjectStructure/codeunit.xsd">
     <cps:name>GRYVAIcecastServer</cps:name>
     <cps:version>0.1.1</cps:version>
-    <cps:properties codeunithastestablesourcecode="false" codeunithasupdatabledependencies="false" throwexceptionifcodeunitfilecannotbevalidated="true" />
+    <cps:properties codeunithastestablesourcecode="false" codeunithasupdatabledependencies="true" throwexceptionifcodeunitfilecannotbevalidated="true" />
     <cps:dependentcodeunits>
     </cps:dependentcodeunits>
     <cps:developerteam>
