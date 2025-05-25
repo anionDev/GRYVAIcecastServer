@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ARG TargetEnvironmentType
-ARG Version="0.1.2"
+ARG Version="0.1.3"
 LABEL maintainer "marius.goecke@gmail.com"
 LABEL version="v$Version"
 LABEL description="GRYVAIcecastServer is a docker-image for simply running an Icecast-server in a docker-container."

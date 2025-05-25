@@ -1,0 +1,11 @@
+@startuml CodeUnits-Overview
+title CodeUnits of GRYVAIcecastServer
+
+[GRYVAIcecastServer]
+note as GRYVAIcecastServerNote
+  GRYVAIcecastServer is a docker-image for simply running an Icecast-server in a docker-container.
+end note
+GRYVAIcecastServer .. GRYVAIcecastServerNote
+
+
+@enduml
