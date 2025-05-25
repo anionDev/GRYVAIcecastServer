@@ -3,23 +3,21 @@
 		{
 			"path": ".",
 			"name": "Entire repository"
-		},
-		{
-			"path": "./GRYVAIcecastServer",
-			"name": "GRYVAIcecastServer"
 		}
 	],
 	"tasks": {
 		"version": "2.0.0",
 		"tasks": [
 			{
-				"label": "Build all codeunits",
-				"command": "SCBuildCodeunits",
-				"args": [],
+				"label": "Base: Build all codeunits",
+				"command": "scbuildcodeunits",
 				"type": "shell",
 				"options": {
 					"cwd": "${workspaceFolder}"
-				}
+				},
+				"aliases": [
+					"bb"
+				]
 			},
 			{
 				"label": "GRYVAIcecastServer: Run example",
@@ -46,11 +44,11 @@
 	},
 	"settings": {
 		"spellright.language": [
-			"en",
+			"en"
 		],
 		"spellright.documentTypes": [
 			"markdown",
-			"plaintext",
-		],
+			"plaintext"
+		]
 	}
 }
